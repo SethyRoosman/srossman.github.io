@@ -2,6 +2,10 @@ html {
 	background-color:grey;
 }
 
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
 .col-6 {
 	background-color: #22223B;
 }
@@ -10,6 +14,23 @@ html {
 	background-color: #4A4E69;
 }
 
+.nav-item {
+
+}
+
 .col {
 	background-color: #22223B;
+}
+
+.sticky-bottom {
+	padding-bottom: 5%;
+}
+
+.socialpadding {
+	padding-top: 25%;
+}
+
+.img {
+	max-width: 100%;
+	height: auto;
 }
