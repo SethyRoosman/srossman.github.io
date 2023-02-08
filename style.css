@@ -2,6 +2,10 @@ html {
 	background-color:grey;
 }
 
+.col-6 {
+	background-color: #22223B;
+}
+
 .nav-color {
 	background-color: #4A4E69;
 }
