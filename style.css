@@ -4,6 +4,19 @@ html {
 
 body {
 	font-family: 'Josefin Sans', sans-serif;
+	/*
+	min-height: 75rem;
+	padding-top: 4.5rem;
+	*/
+}
+
+h1,h2,h3,h4,h5,h6,span {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+    /*font-size: 18px;*/
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .col-6 {
@@ -11,14 +24,24 @@ body {
 }
 
 .nav-color {
-	background-color: #4A4E69;
+	background-color: #433648;
 }
 
 .nav-item {
 
 }
 
-.col {
+.head-image {
+	/*
+	position: absolute;
+	left: 2%;
+	bottom: 2%;
+	*/
+	position: absolute;
+	padding-top: 50%;
+}
+
+.col, .col-3 {
 	background-color: #22223B;
 }
 

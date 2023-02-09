@@ -16,26 +16,55 @@
     <div class="container-fluid">
       <div class="row flex-nowrap">
 
-          <div class="col-2">
-            column 1
+          <div class="col-3">
+            <br>
             <div class="row">
-              <h5> im a row 1</h5>
+              <h5><a href="https://github.com/SethyRoosman">> github</a></h5>
             </div>
             <hr>
-            <div class="row"> im a row 2</div>
-            <hr>
-            <div class="row"> ia msa row 4</div>
             <div class="row">
-              <img src="./v2-face-for-portfolio-trim.png" class="img-fluid" alt="art">
+              <h5><a href="mailto:srossmaninc@gmail.com">> email</a></h5>
             </div>
+            <hr>
+            <br>
+            <div style="position: relative;">
+              <div class="">
+                <img src="./mandelbrot_set_image-crop.png" class="img-fluid head-image" alt="art" id="cycle-image">
+              </div>
+              <script type="text/javascript">
+                (function() {
+                    var rotator = document.getElementById('cycle-image');  
+                    var imageDir = './';                         
+                    var delayInSeconds = 5;                            
+
+                    var images = ['Mandelbrot_set_image-crop.png', 'escher-relativity-crop.jpeg', 'Sadamasa_Motonaga-crop.jpeg', 'TAHTS-crop.jpeg', 'Work_61-14-crop.jpeg'];
+
+                    var num = 0;
+                    var changeImage = function() {
+                        var len = images.length;
+                        rotator.src = imageDir + images[num++];
+                        if (num == len) {
+                            num = 0;
+                        }
+                    };
+                    setInterval(changeImage, delayInSeconds * 100);
+                })();
+              </script>
+              <div class="">
+                <img src="./v2-face-for-portfolio-trim.png" class="img-fluid head-image" alt="art">
+              </div>
+            </div>
+
+            <!--<div class="row" style="background-color: red;">
+              <img src="./v2-face-for-portfolio-trim.png" class="img-fluid head-image" alt="art">
+            </div>-->
           </div>
 
           <div class="col-6 d-flex justify-content-center socialpadding">
             <div class="row">
               <h1>@srossman</h1>
             </div>
-            <hr>
-            <div class="row" style="background-color: red;">
+            <div class="row">
               <p>damn this is sick holy crap</p>
             </div>
           </div>
@@ -51,7 +80,7 @@
                   <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                       <li class="nav-item">
                           <a href="#" class="nav-link align-middle px-0">
-                              <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
+                              <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">./home</span>
                           </a>
                       </li>
                       <li class="nav-item">
@@ -78,13 +107,15 @@
                       </li>
                       <li>
                           <a href="#" class="nav-link px-0 align-middle">
-                              <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Misc</span> </a>
+                              <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">./misc</span> </a>
                       </li>
                   </ul>
+                  <!--
                   <div class="sticky-bottom">
-                      <a href="#" class="nav-link px-0 align-middle">
-                        <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Misc</span> </a>
-                  </div>
+                    <div class="px-0 align-middle">
+                        <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline"><a href="https://github.com/SethyRoosman">github</a> and <a href="mailto:srossmaninc@gmail.com">email</a></span>
+                      </div>
+                  </div>-->
               </div>
           </div>
       </div>
