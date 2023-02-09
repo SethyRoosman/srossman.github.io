@@ -19,10 +19,6 @@ p {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.col-6 {
-	background-color: #22223B;
-}
-
 .nav-color {
 	background-color: #433648;
 }
@@ -41,7 +37,7 @@ p {
 	padding-top: 50%;
 }
 
-.col, .col-3 {
+.col, .col-2, .col-3, .col-6 {
 	background-color: #22223B;
 }
 
