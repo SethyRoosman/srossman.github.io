@@ -1,9 +1,10 @@
 html {
-	background-color:grey;
+	background-color: rgba(2,0,36,1);
 }
 
 body {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Playfair Display', serif;
+	/*font-family: 'Josefin Sans', sans-serif;*/
 	/*
 	min-height: 75rem;
 	padding-top: 4.5rem;
@@ -11,16 +12,23 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6,span {
-	font-family: 'Josefin Sans', sans-serif;
+	/*font-family: 'Josefin Sans', sans-serif;*/
+	font-family: 'Playfair Display', serif;
 }
 
 p {
     /*font-size: 18px;*/
-    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Josefin Sans', sans-serif;*/
+    font-family: 'Playfair Display', serif;
 }
 
 .nav-color {
-	background-color: #433648;
+	background-color: rgba(2,0,36,1);
+}
+
+.socials {
+	background-color: #22223B;
+	padding-left: 4%;
 }
 
 .nav-item {
@@ -34,10 +42,24 @@ p {
 	bottom: 2%;
 	*/
 	position: absolute;
-	padding-top: 50%;
+	margin-top: 50%;
 }
 
-.col, .col-2, .col-3, .col-6 {
+.poem-padding {
+	padding-left: 2%;
+	background-color: #22223B;
+}
+
+.col-6 {
+	background: rgb(49,41,52);
+	background: radial-gradient(circle, rgba(49,41,52,0.9262298669467787) 9%, rgba(34,34,59,1) 44%, rgba(2,0,36,1) 71%);
+}
+
+.col-2, .col-3 {
+	background-color: rgba(2,0,36,1);
+}
+
+.col, .col-1, .col-7 {
 	background-color: #22223B;
 }
 
@@ -52,4 +74,10 @@ p {
 .img {
 	max-width: 100%;
 	height: auto;
+}
+
+.img-for-links {
+	max-width: 16%;
+	height: auto;
+	padding: 1%;
 }
