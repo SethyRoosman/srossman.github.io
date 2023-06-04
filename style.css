@@ -1,5 +1,5 @@
 html {
-	background-color:grey;
+	background-color: #22223B;
 }
 
 body {
@@ -10,13 +10,36 @@ body {
 	*/
 }
 
-h1,h2,h3,h4,h5,h6,span {
+h1,h2,h3,h4,h5,h6 {
 	font-family: 'Josefin Sans', sans-serif;
+	color: #D3F3EE;
+}
+
+span {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 2em;
+	color: #D3F3EE;
 }
 
 p {
     /*font-size: 18px;*/
     font-family: 'Josefin Sans', sans-serif;
+    color: #D3F3EE;
+}
+
+hr {
+	background-color: #22223B;
+}
+
+a:visited {
+	color: #D3F3EE;
+	text-decoration: none;
+}
+
+.github-and-email {
+	/*border-style: solid;*/
+	padding-left: 10%;
+	/*border-color: #D3F3EE;*/
 }
 
 .nav-color {
@@ -34,10 +57,11 @@ p {
 	bottom: 2%;
 	*/
 	position: absolute;
-	padding-top: 50%;
+	padding-top: 40%;
 }
 
-.col, .col-2, .col-3, .col-6 {
+.col, .col-1, .col-2, .col-3, .col-6 {
+	color: #D3F3EE;
 	background-color: #22223B;
 }
 
