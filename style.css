@@ -51,6 +51,7 @@ a:visited {
 
 .nav-color {
 	background-color: #141424;
+	/*border-left: 10px dashed #22223B;*/
 }
 
 .nav-item {
@@ -67,10 +68,16 @@ a:visited {
 	padding-top: 40%;
 }
 
-.col, .col-1, .col-2, .col-3, .col-6 {
+.col, .col-1, .col-2, .col-3, .col-6, .col-8 {
 	/*color: #D3F3EE;*/
 	color: ghostwhite;
 	background-color: #22223B;
+}
+
+.zig-zag {
+	background: #22223B;
+	--mask: conic-gradient(from -147.5deg at right, #0000, #000 1deg 114deg, #0000 115deg) 50%/100% 109.88px;
+	-webkit-mask: var(--mask);
 }
 
 .sticky-bottom {
