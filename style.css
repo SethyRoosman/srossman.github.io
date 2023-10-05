@@ -49,6 +49,10 @@ a:visited {
 	/*border-color: #D3F3EE;*/
 }
 
+.github-and-email-links {
+	text-decoration: none;
+}
+
 .nav-color {
 	background-color: #141424;
 	/*border-left: 10px dashed #22223B;*/
@@ -74,6 +78,10 @@ a:visited {
 	background-color: #22223B;
 }
 
+.misc-main-content {
+	padding-top: 1%;
+}
+
 .zig-zag {
 	background: #22223B;
 	--mask: conic-gradient(from -147.5deg at right, #0000, #000 1deg 114deg, #0000 115deg) 50%/100% 109.88px;
@@ -91,4 +99,10 @@ a:visited {
 .img {
 	max-width: 100%;
 	height: auto;
+}
+
+.img-misc {
+	max-width: 35%;
+	height: auto;
+	padding-bottom: 3%;
 }
