@@ -76,7 +76,7 @@ hr {
 	padding-top: 40%;
 }
 
-.col, .col-1, .col-2, .col-3, .col-6, .col-8 {
+.col, .col-1, .col-2, .col-3, .col-4, .col-6, .col-8 {
 	/*color: #D3F3EE;*/
 	color: ghostwhite;
 	background-color: #22223B;
@@ -106,7 +106,33 @@ hr {
 }
 
 .img-misc {
-	max-width: 35%;
+	max-width: 75%;
 	height: auto;
 	padding-bottom: 3%;
+}
+
+.misc-interests-blurb {
+	padding-left: 2%;
+}
+
+/* misc. list formatting */
+.misc-ul {
+	font-family: 'Josefin Sans', sans-serif;
+    list-style: none;
+    padding-left: 2%;
+}
+
+.misc-li {
+    margin-bottom: 10px;
+}
+
+.misc-li:before {
+    content: "➔"; /* Custom arrow bullet */
+    margin-right: 5px;
+}
+
+/* Style for list items */
+.misc-li {
+    font-size: 16px;
+    line-height: 1.5;
 }
