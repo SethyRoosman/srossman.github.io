@@ -32,30 +32,40 @@
           </div>
 
           <div class="col-4 misc-main-content">
-            <h5>Current Interests</h5>
             <div class="misc-interests-blurb">
               <p>Lately I've been enjoying religious philosophy and OS systems. I'm not a very religious person but the "leap of faith" Kierkegaard talks about fascinates me.</p>
               <p>I am steadfast in the belief that Adorno would have a heart attack if he ever saw a bus with an advertisement for a new show on it.</p>
             </div>
+            <!-- STARTING CODE ADDITION -->
             <hr>
-            <h5>Media</h5>
-            <ul class="misc-ul">
-              <li class="misc-li">
-                Mulholland Drive
-              </li>
-              <li class="misc-li">
-                Neon Genesis Evangelion
-              </li>
-              <li class="misc-li">
-                American Beauty
-              </li>
-              <li class="misc-li">
-                Serial Experiments Lain
-              </li>
-              <li class="misc-li">
-                Natural Born Killers
-              </li>
-          </ul>
+            <button class="collapsible"><h4>Server Build</h4></button>
+            <div class="collapsible-content">
+              content
+            </div>
+            <button class="collapsible"><h4>Media</h4></button>
+            <div class="collapsible-content">
+              <ul class="misc-ul">
+                <li class="misc-li">
+                  Mulholland Drive
+                </li>
+                <li class="misc-li">
+                  Neon Genesis Evangelion
+                </li>
+                <li class="misc-li">
+                  American Beauty
+                </li>
+                <li class="misc-li">
+                  Serial Experiments Lain
+                </li>
+                <li class="misc-li">
+                  Natural Born Killers
+                </li>
+              </ul>
+            </div>
+            <button class="collapsible"><h4>Hobbies</h4></button>
+            <div class="collapsible-content">
+              content
+            </div>
           </div>
 
           <div class="col-1 zig-zag">
@@ -92,7 +102,22 @@
           </div>
       </div>
     </div>
-
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+      
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight){
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          } 
+        });
+      }
+      </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>
